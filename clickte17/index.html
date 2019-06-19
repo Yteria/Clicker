@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clicker</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Audiowide');
+        body {
+            text-align: center;
+        }
+        #bank {
+            font-size: 2em;
+            font-family: 'Audiowide', cursive;
+;
+        }
+        button {
+            height: 100px;
+            width: 100px;
+            border-radius: 100px;
+        }        
+        #game {
+            font-size: 5em;
+            font-family: 'Audiowide', cursive;
+            height: 500px;
+            width: 500px;
+            border-radius: 300px;
+            background-image: url('images/he-man-3.jpeg');
+            background-position: center;
+            background-size: cover;
+            color: white;
+        }
+        button:focus {
+            outline: 0px;
+        }
+        #game:hover {
+            background-image: url('images/boi.jpeg');
+        }
+    </style>
+</head>
+<body>
+    <button id="game">0</button>
+    <div id="powerups"></div>
+    <p id="bank"> </p>
+    <script src="js/game.js"></script>
+</body>
+
+</html>
